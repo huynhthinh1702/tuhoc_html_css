@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai11 học ul ol</title>
+  </head>
+  <body>
+    <h2>Thẻ ul</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <h2>Thẻ ol</h2>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <h2>Ví dụ mẫu kết hợp 2 bài này</h2>
+    <h3>Nguyên liệu cần chuẩn bị</h3>
+    <ul>
+      <li>10 quả trúng gà</li>
+      <li>1000ml nước lọc</li>
+    </ul>
+    <h3>Các bước chế biến</h3>
+    <ol>
+      <li>Sơ chế trứng</li>
+      <li>Cho nước vào nồi và đặt lên bếp</li>
+      <li>Cho trứng vào</li>
+      <li>...</li>
+    </ol>
+    <!-- Có thể viết tắt để nhanh hơn -->
+    <!-- ul>li: tạo nhanh ul và li hoặc ul>li*5: tạo thẻ ul chứa 5 li áp dụng cho ol -->
+    <!-- ngoài ra còn có thể ul>li*5{nội dung tự ghi} hoặc {item $} trong đó $ sẽ tự ghi ra số thứ tự theo cái thứ tự li -->
+    <h2>Dạng revers</h2>
+    <ol reversed>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ol>
+    <h2>demo dạng type khác nhau</h2>
+    <ol type="A">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ol>
+
+    <ol type="a">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ol>
+
+    <ol type="I">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ol>
+
+    <h2>bài tập demo lồng ul và ol</h2>
+    <h3>Bài 1: lồng ol và ol kết hợp tag b</h3>
+    <ol type="I">
+      <li><b>Mở bài: giới thiệu nhân vật trong truyện cổ tích</b></li>
+      <li>
+        <b>Thân bài: tả nhân vật trong truyện cổ tích</b>
+        <ol>
+          <li>Tả bao quát nhân vật trong truyện cổ tích....................</li>
+          <li>
+            Tả chi tiết nhân vật trong truyện cổ tích.......................
+            <ol type="a">
+              <li>Tả ngoại hình của nhân vật trong truyện cổ tích</li>
+              <li>Tả tính tình của nhân vật trong truyện cổ tích</li>
+              <li>Tả hoạt động của nhân vật cổ tích</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <b>Kết bài: nêu cảm nghỉ của em về nhân vật trong truyện cổ tích</b>
+      </li>
+    </ol>
+
+    <h3>Bài 2: Lồng ul và ol</h3>
+    <ul>
+      <li>Menu item 1</li>
+      <li>
+        Menu item 2
+        <ol type="I">
+          <li>menu item 2.1</li>
+          <li>
+            menu item 2.2
+            <ol>
+              <li>menu item 2.2.1</li>
+              <li>menu item 2.2.2</li>
+              <li>menu item 2.2.3</li>
+            </ol>
+          </li>
+          <li>menu item 2.3</li>
+          <li>menu item 2.4</li>
+        </ol>
+      </li>
+      <li>Menu item 3</li>
+      <li>Menu item 4</li>
+    </ul>
+  </body>
+</html>
