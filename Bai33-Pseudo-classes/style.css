@@ -1,0 +1,39 @@
+/* Tác dụng lên selector khi di chuột qua */
+/* .di_chuot:hover {
+  color: red;
+  font-size: 30px;
+} */
+
+/* Tác dụng lên selector khi nhấn giữ chuột */
+.di_chuot:active {
+  color: red;
+  font-size: 30px;
+}
+
+/* Tác dụng lên selector khi link chưa được click truy cập*/
+.click_me:link {
+  color: chocolate;
+}
+
+/* Tác dụng lên selector khi link đã được click truy cập */
+.click_me:visited {
+  color: red;
+}
+
+/* Tác dụng lên selector khi không có nội dụng */
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+/* Tác dụng lên selector có id là... khi trên url có hash tương ứng với id đó */
+h2:target {
+  color: blue;
+}

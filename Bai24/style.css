@@ -1,0 +1,17 @@
+body {
+  background-image: url(./img/boy.jpg);
+}
+
+h2 {
+  /* opacity nếu set 0 thì nó mất nhưng vẫn chiếm ko gian còn
+    display none thì nó xóa ra luôn ko chiếm không gian.
+    còn visibility thì như thằng opacity nhưng ko tương tác được */
+  /* opacity: 0; */
+  /* display: none; */
+  visibility: hidden;
+  background-color: blue;
+}
+
+span {
+  visibility: visible;
+}

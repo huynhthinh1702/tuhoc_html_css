@@ -1,0 +1,24 @@
+/* Kiếm cái title có giá trị giống y hệt tuhoc.cc */
+/* [title~="tuhoc.cc"] {
+  color: red;
+} */
+
+/* Kiếm cái title có giá trị giống tuhoc.cc */
+[title*="tuhoc.cc"] {
+  color: red;
+}
+
+/* |= là bắt buộc phải có giá trị giống hệt bắt đầu bằng vd như pic hoặc pic-123 */
+/* [title|="pic"] {
+  color: pink;
+} */
+
+/* ^= là bắt buộc phải có giá trị đứng đầu vd như pic nhưng ko quan tâm ở sau là gì vd pic 123, pic-212 */
+/* [title^="pic"] {
+  color: pink;
+} */
+
+/* $= dùng để chỉnh cho cái có giá trị kết thúc bằng gì vd c , pic */
+[title$="c"] {
+  color: pink;
+}

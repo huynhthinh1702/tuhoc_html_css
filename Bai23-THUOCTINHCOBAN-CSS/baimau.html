@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập luyện HTML và CSS</title>
+
+    <style>
+      /* Style cho tiêu đề h1 */
+      h1 {
+        color: blueviolet;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+
+      /* Style cho đoạn văn p */
+      p {
+        font-style: italic;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+
+      /* Style cho toàn bộ thẻ th và td trong bảng */
+      th,
+      td {
+        color: blueviolet;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Báo cáo kết quả học tập HTML và CSS</h1>
+
+    <p>
+      Họ và tên: Nguyễn Văn A<br />
+      Lớp: Lập trình Web Cơ Bản
+    </p>
+
+    <hr />
+
+    <br />
+
+    <!-- Dùng thuộc tính border="1" của thẻ table để kẻ viền bảng cơ bản -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Khối lớp</th>
+          <th>Môn Học</th>
+          <th>Điểm BTL</th>
+          <th>Điểm Thi</th>
+          <th>Kết Quả</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">Lập trình</td>
+          <td>HTML & CSS căn bản</td>
+          <td>9.0</td>
+          <td>8.5</td>
+          <td>Đạt</td>
+        </tr>
+        <tr>
+          <td>JavaScript Cơ Bản</td>
+          <td>8.0</td>
+          <td>8.0</td>
+          <td>Đạt</td>
+        </tr>
+        <tr>
+          <td>Thiết Kế</td>
+          <td>UI/UX Figma</td>
+          <td>8.5</td>
+          <td>9.0</td>
+          <td>Đạt</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <!-- Gộp 4 cột đầu, ô td tiếp theo chứa điểm sẽ thành cột thứ 5 -->
+          <td colspan="4">Điểm Trung Bình Chung</td>
+          <td>8.5</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

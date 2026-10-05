@@ -1,0 +1,8 @@
+/* thay đổi thằng p có thuộc tính href */
+p[href] {
+  color: red;
+}
+
+[target="_blank"] {
+  color: pink;
+}
