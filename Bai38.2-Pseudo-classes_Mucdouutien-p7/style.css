@@ -1,0 +1,27 @@
+/* Universal selector : yếu nhất */
+* {
+  color: red;
+}
+
+/* Element selector: mạnh hơn universal selector */
+h1 {
+  color: blue;
+}
+
+/* Class - pseudo class mạnh hơn element selector*/
+.demo {
+  color: green;
+}
+
+/* ID mạnh hơn Class - pseudo class */
+
+#theh1 {
+  color: yellow;
+}
+
+/* lệnh inline  mạnh hơn ID */
+
+/* Lệnh có !important thì mạnh nhất */
+* {
+  color: red !important;
+}

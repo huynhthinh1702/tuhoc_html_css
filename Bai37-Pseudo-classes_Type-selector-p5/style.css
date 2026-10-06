@@ -1,0 +1,15 @@
+/* chọn pt con p đầu tiên */
+p:first-of-type {
+  color: brown;
+}
+
+/* Chọn pt con p cuối cùng */
+p:last-of-type {
+  color: red;
+}
+
+/* Chọn pt con p duy nhất */
+p:only-of-type {
+  color: blue;
+  font-size: 40px;
+}

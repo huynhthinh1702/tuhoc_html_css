@@ -1,0 +1,33 @@
+/* p:first-child {
+  color: red;
+  font-size: 30px;
+} */
+
+/* pt con cuối cùng */
+/* p:last-child {
+  color: blue;
+  font-size: 35px;
+} */
+
+/* pt con thứ n */
+/* p:nth-child(2) {
+  color: pink;
+} */
+
+/* Có thể truyền giá trị là odd (nhảy theo lẻ) , even(nhảy theo chẵn), 2n+1 ( nhảy theo step) */
+/* p:nth-child(3n + 1) {
+  color: red;
+  font-size: 30px;
+} */
+
+/* pt con thứ n nhưng từ dưới lên, và có thể chọn trá trị odd,even,2n+1... tương tự */
+p:nth-last-child(2) {
+  color: red;
+  font-size: 30px;
+}
+
+/* pt là thẻ con duy nhất */
+p:only-child {
+  color: blue;
+  font-size: 40px;
+}
