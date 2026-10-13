@@ -1,0 +1,12 @@
+h1 {
+  margin: 40px;
+  /* Text shadow: ngang, dọc, blur, màu */
+  text-shadow: 0px -20px 0px rgba(255, 0, 0, 0.302);
+}
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+  overflow: scroll;
+  /* overflow: auto; */
+}
